@@ -26,11 +26,12 @@
   border-radius: 30px;
 }
 
-/* --------------------- styling for the 'before' state --------------------- */
-.before-submit {
-  /* display: none; */
+/* --- this class will be dynamically applied to hide the unselected state -- */
+.hide-me {
+  display: none;
 }
 
+/* --------------------- styling for the "before" state --------------------- */
 .star-logo {
   display: flex;
   justify-content: center;
@@ -69,7 +70,14 @@
   height: 50px;
   background-color: var(--dark-blue);
   color: var(--light-grey);
+  font-weight: 700;
+  font-size: 16px;
   border-radius: 50%;
+}
+
+.rating-selected {
+  background-color: var(--light-grey);
+  color: var(--white);
 }
 
 .rating-button:hover,
@@ -98,10 +106,7 @@
   cursor: pointer;
 }
 
-/* ---------------------- styling for the 'after' state --------------------- */
-.after-submit {
-  display: none;
-}
+/* ---------------------- styling for the "after" state --------------------- */
 
 /* --------------------------- attribution section -------------------------- */
 .attribution {
