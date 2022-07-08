@@ -1,5 +1,3 @@
-console.log("JavaScript loaded.");
-
 // this will store the current selected rating
 let choice = 0;
 
