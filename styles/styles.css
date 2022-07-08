@@ -19,6 +19,16 @@
   font-family: "Overpass", sans-serif;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  min-height: 100vh;
+  background-color: var(--very-dark-blue);
+}
+
 .rating-card {
   background-color: #182028;
   max-width: 412px;
@@ -116,9 +126,9 @@
   text-align: center;
   color: var(--orange);
   background-color: var(--dark-blue);
-  /* width: max-content; */
+  width: max-content;
   padding: 5px 20px;
-  margin: 36px 0;
+  margin: 36px auto;
   border-radius: 20px;
 }
 
@@ -130,6 +140,7 @@
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: var(--light-grey);
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
