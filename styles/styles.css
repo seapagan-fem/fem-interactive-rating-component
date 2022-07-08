@@ -128,12 +128,16 @@ body {
   background-color: var(--dark-blue);
   width: max-content;
   padding: 5px 20px;
-  margin: 36px auto;
+  margin: 32px auto;
   border-radius: 20px;
 }
 
 .centered {
   text-align: center;
+}
+
+.body-text.centered {
+  width: 340px;
 }
 
 /* --------------------------- attribution section -------------------------- */
@@ -144,4 +148,14 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 0 24px;
+  }
+
+  .body-text.centered {
+    width: 100%;
+  }
 }
