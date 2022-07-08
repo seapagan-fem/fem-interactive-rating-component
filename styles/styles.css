@@ -108,6 +108,24 @@
 
 /* ---------------------- styling for the "after" state --------------------- */
 
+.thankyou-logo {
+  text-align: center;
+}
+
+.show-rating {
+  text-align: center;
+  color: var(--orange);
+  background-color: var(--dark-blue);
+  /* width: max-content; */
+  padding: 5px 20px;
+  margin: 36px 0;
+  border-radius: 20px;
+}
+
+.centered {
+  text-align: center;
+}
+
 /* --------------------------- attribution section -------------------------- */
 .attribution {
   font-size: 11px;
