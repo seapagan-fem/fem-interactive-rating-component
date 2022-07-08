@@ -24,7 +24,7 @@ const ratingClick = (e) => {
 // handle clicking the 'submit' button
 const submitClick = (e) => {
   if (choice !== 0) {
-    // flip to the second state
+    // flip to the second state if a rating has bewwen selected
     beforeEl.classList.add("hide-me");
     afterEl.classList.remove("hide-me");
     // inject the chosen rating into the text
